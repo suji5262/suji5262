@@ -19,8 +19,8 @@ jobs:
           USERNAME: ${{ github.repository_owner }}
       - name: Commit & Push
         run: |
-          git config user.name Yunhui-Kwak
-          git config user.email kwakyh17@naver.com
+          git config user.name suji5262
+          git config user.email suji5262@gmail.com
           git add -A .
           git commit -m "update commit profile 3d contrib"
           git push
